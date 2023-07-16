@@ -36,13 +36,13 @@ const Hero = () => {
       </div>
       <div className="flexCenter socials">
             <div className=" linkedin">
-            <a href="https://linkedin.com/in/rizzabh"  target="_blank"><img src=".././public/mdi_linkedin.png" alt="Linkedin" /></a>
+            <a href="https://linkedin.com/in/rizzabh"  target="_blank"><img src="/mdi_linkedin.png" alt="Linkedin" /></a>
             </div>
             <div className=" github">
-            <a href="https://github.com/rizzabh" target="_blank"><img src=".././public/mdi_github.png" alt="Linkedin" /></a>
+            <a href="https://github.com/rizzabh" target="_blank"><img src="/mdi_github.png" alt="github" /></a>
             </div>
             <div className="instagram">
-            <a href="https://www.instagram.com/rizzabh/" target="_blank"><img src=".././public/mdi_instagram.png" alt="Linkedin" /></a>
+            <a href="https://www.instagram.com/rizzabh/" target="_blank"><img src="/mdi_instagram.png" alt="instagram" /></a>
             </div>
         </div>
     </section>
