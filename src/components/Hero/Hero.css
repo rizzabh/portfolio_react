@@ -38,16 +38,18 @@ z-index: -1;
     gap: 32px;
 }
 .hero-title{
+    color: var(--font);
     position: relative;
     z-index: 1;
 }
 .hero-title>h1{
+    color: var(--font);
     font-weight: 600;
     font-size: 3.8rem;
     line-height: 1rem;
 }
 .hero-subtitle>h2{
-    
+    color: var(--font);
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 28px;
@@ -67,6 +69,7 @@ z-index: -1;
     height: 36px;
     width: 36px;
     margin: 20px;
+    filter: var(--filte);
 }
 .linkedin>a>img:hover{
     transition: all .5s ease-in-out;
@@ -75,6 +78,7 @@ z-index: -1;
 .instagram>a>img{
     height: 36px;
     width: 36px;
+    filter: var(--filte);
     margin: 20px;
 }
 .instagram>a>img:hover{
@@ -84,6 +88,7 @@ z-index: -1;
 .github>a>img{
     height: 36px;
     width: 36px;
+    filter: var(--filte);
     margin: 20px;
 }
 .github>a>img:hover{
