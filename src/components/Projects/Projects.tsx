@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
         <Swiper>
             {
-                
+                <img src="" alt="" />
             }
         </Swiper>
       </section>
