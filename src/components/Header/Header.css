@@ -14,3 +14,22 @@
 .h-menu{
     gap: 2rem;
 }
+.change-theme{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: white;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+.change-theme:hover{
+   
+
+    background: var(--blue-gradient);
+    
+
+}
+#abc{
+    filter: var(--filte);
+}
