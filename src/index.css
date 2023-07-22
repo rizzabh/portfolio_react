@@ -3,6 +3,7 @@
   --secondary: rgba(255, 255, 255, 0.78);
   --bg: #ffffff;
   --black: #131110;
+  --minibg: #faf1ff;
   --blue-gradient: linear-gradient(97.05deg, #c340ff 3.76%, #7a29c6 100%);
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --blue: #4066ff;
@@ -15,6 +16,7 @@
 [data-theme="dark"]{
   
   --bg: #191717;
+  --minibg: #2e2e2e;
   --font: #ffffff;
   --filte: invert(100%)
 }
