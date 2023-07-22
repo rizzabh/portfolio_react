@@ -33,3 +33,19 @@
 #abc{
     filter: var(--filte);
 }
+.ham{
+    display: none;
+}
+/* @media (max-width: 900px){
+    .Navv{
+        display: none;
+    }
+    .ham{
+        display: flex;
+        position: relative;
+        align-items:flex-end;
+        margin: 30px;
+        left: 80%;
+    }
+
+} */
