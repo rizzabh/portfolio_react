@@ -3,6 +3,7 @@ import {Swiper,SwiperSlide, useSwiper} from 'swiper/react'
 import "swiper/css"
 import './Projects.css'
 import data from '../../utils/slider.json';
+import { FreeMode } from 'swiper';
 
 
 const Projects = () => {
@@ -10,11 +11,11 @@ const Projects = () => {
     <div>
       <section className="wrapper-projects">
         <div className="paddings innerWidth p-container">
-            <span className="primaryText p-head">
+            <span className="primaryText p-head" id='MyProjects'>
                 My Projects
             </span><br/><br/>
         
-        <Swiper breakpoints={{0:{spaceBetween:40},{480:{slidesPerView:1, spaceBetween:40},720:{slidesPerView:2, spaceBetween:40},1280:{slidesPerView:3,spaceBetween:50}}}>
+        <Swiper breakpoints={{0:{slidesPerView:1, spaceBetween:40},480:{slidesPerView:1, spaceBetween:40},720:{slidesPerView:2, spaceBetween:40},1280:{slidesPerView:3,spaceBetween:50}}}>
           <SlideButtons/>
             {
                 data.map((card, i) => (
