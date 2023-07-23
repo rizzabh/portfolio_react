@@ -27,9 +27,9 @@ const Hero = () => {
             
         </div>
         <div className="flexCenter hero-right">
-          <center><div className="img-container">
-            <center><img src="Group 1.png" alt="Profile Pic" /></center>
-          </div></center>
+          <div className="img-container">
+            <img src="Group 1.png" alt="Profile Pic" />
+          </div>
         </div>
        
         
