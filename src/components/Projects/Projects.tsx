@@ -14,7 +14,7 @@ const Projects = () => {
                 My Projects
             </span><br/><br/>
         
-        <Swiper spaceBetween={60} slidesPerView={3}>
+        <Swiper breakpoints={{480:{slidesPerView:1, spaceBetween:40},720:{slidesPerView:2, spaceBetween:40},1280:{slidesPerView:3,spaceBetween:50}}}>
           <SlideButtons/>
             {
                 data.map((card, i) => (
