@@ -24,7 +24,7 @@ z-index: -1;
 }
 .img-container{
     position: relative;
-    left: 100px;
+    
 }
 .hero-wrapper{
     position: relative;
@@ -94,4 +94,30 @@ z-index: -1;
 .github>a>img:hover{
     transition: all .5s ease-in-out;
     transform: scale(1.2);
+}
+@media (max-width: 670px){
+    .img-container{
+        top: -3rem;
+        left: 1rem;
+    }
+    .img-container>img{
+        position: relative;
+        height: 300px;
+        width: 300px;
+    }
+    .socials{
+        padding: 0;
+        margin: -60px;
+    }
+    .bggrad1{
+        height: 60px;
+        width: 60px;
+        top: -70%;
+    }
+}
+@media (max-width: 410px){
+    .bggrad1{
+        top: -10%;
+    }
+
 }
