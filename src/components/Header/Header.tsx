@@ -19,7 +19,7 @@ const Header = () => {
     <img src="./rishabhquali.png" className='logo1' alt="Rishabh." width={170}/>
     <div className="flexCenter h-menu">
         <a href="" className='Navv' >Home</a>
-        <a href="" className='Navv'>Projects</a>
+        <a href="#MyProjects" className='Navv'>Projects</a>
         <a href="https://drive.google.com/file/d/1r2qWQ01PLNVoE40t8i94d47YnvEs6U9M/view?usp=drive_link" download="Rishabh Resume" className='Navv'>Resume</a>
         <div><input className='change-theme' id='dark-model' type='checkbox' onChange={toggleTheme}/> <label htmlFor="dark-model"><img src="icons8-dark-theme-30.png" id='abc' alt="Themes"/></label> </div>
         <button className='button2 Navv' ><a href="">Contact me</a></button>
