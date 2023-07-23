@@ -1,14 +1,18 @@
+
+
 .h-container{
     justify-content: space-between;
     /* padding-top: 1rem;
     padding-bottom: 1rem; */
-   
+    
+    backdrop-filter: blur(7.5px);
+    
     
 
 }
 .h-wrapper{
-   
-   position: sticky;
+    position: sticky;
+    top: 0; 
    z-index: 100;
 }
 .h-menu{
@@ -23,13 +27,7 @@
     border: none;
     transition: all .2s ease-in-out;
 }
-.change-theme:hover{
-   
 
-    background: var(--blue-gradient);
-    
-
-}
 #abc{
     filter: var(--filte);
 }
