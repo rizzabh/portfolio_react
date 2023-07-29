@@ -22,6 +22,7 @@ const Hero = () => {
             <div className="cta1">
             <a href = "https://drive.google.com/file/d/1r2qWQ01PLNVoE40t8i94d47YnvEs6U9M/view?usp=drive_link">
             <button className="button2">Resume</button></a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=pandeyrishabh966@gmail.com&su=&body=&bcc=&tf=cm"><button className="button1 phone">Contact</button></a>
 
         </div>
             
