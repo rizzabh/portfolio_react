@@ -26,7 +26,7 @@ const Projects = () => {
                         <span className="primaryText name">{card.name}</span><br/>
                         <span className="secondaryText detail">{card.detail}</span><br/>
                         <a href={card.link1}>
-                        <button className="button2">Code</button></a>
+                        <button className="button2">{card['button-name']}</button></a>
                         
                     </span>
  
