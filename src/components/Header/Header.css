@@ -6,6 +6,56 @@
     padding-bottom: 1rem; */
     
     backdrop-filter: blur(7.5px);
+
+.h-container{
+    justify-content: space-between;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    
+    backdrop-filter: blur(7.5px);
+    
+    
+
+}
+.h-wrapper{
+    position: sticky;
+    top: 0; 
+   z-index: 100;
+}
+.h-menu{
+    gap: 2rem;
+}
+.change-theme{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: white;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+
+#abc{
+    filter: var(--filte);
+}
+.ham{
+    display: none;
+}
+ @media (max-width: 900px){
+    .Navv{
+        display: none;
+    }
+}
+    /*
+    .ham{
+        display: flex;
+        position: relative;
+        align-items:flex-end;
+        margin: 30px;
+        left: 80%;
+    }
+
+} */
     
     
 
