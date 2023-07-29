@@ -19,7 +19,8 @@
   --font: #000000;
   --lightBlue: #eeeeff;
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
-  --filte: invert(0%)
+  --filte: invert(0%);
+  
 }
 .logo1{
   filter: var(--filte);
@@ -131,7 +132,7 @@ a {
 }
 .button2{
   
-    width: 140px;
+    width: 120px;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
