@@ -70,6 +70,7 @@ z-index: -1;
     width: 36px;
     margin: 20px;
     filter: var(--filte);
+    transition: all .5s ease-in-out;
 }
 .linkedin>a>img:hover{
     transition: all .5s ease-in-out;
@@ -80,6 +81,7 @@ z-index: -1;
     width: 36px;
     filter: var(--filte);
     margin: 20px;
+    transition: all .5s ease-in-out;
 }
 .instagram>a>img:hover{
     transition: all .5s ease-in-out;
@@ -90,10 +92,26 @@ z-index: -1;
     width: 36px;
     filter: var(--filte);
     margin: 20px;
+    transition: all .5s ease-in-out;
 }
 .github>a>img:hover{
     transition: all .5s ease-in-out;
     transform: scale(1.2);
+}
+.button1{
+    display: none;
+    width: 120px;
+    background: none;
+    color: var(--font);
+    border: 1px solid var(--font);
+    padding: 1rem;
+    border-radius: 12px;
+    transition: all .5s ease-in-out;
+}
+.button1:hover{
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
 }
 @media (max-width: 670px){
     .img-container{
@@ -115,9 +133,14 @@ z-index: -1;
         top: -70%;
     }
 }
-@media (max-width: 447px){
+@media (max-width: 410px){
     .bggrad1{
         top: -10%;
     }
 
+}
+@media (max-width: 900px){
+    .button1{
+        display: inline-block;
+    }
 }
