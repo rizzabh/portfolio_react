@@ -3,7 +3,7 @@ import {Swiper,SwiperSlide, useSwiper} from 'swiper/react'
 import "swiper/css"
 import './Projects.css'
 import data from '../../utils/slider.json';
-import { FreeMode } from 'swiper';
+
 
 
 const Projects = () => {
