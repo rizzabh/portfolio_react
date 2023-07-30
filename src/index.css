@@ -2,7 +2,8 @@
   --minibg: #180d1f;
   --bg: #191717;
   --font: #ffffff;
-  --filte: invert(100%)
+  --filte: invert(100%);
+  --shadow: 0px 0px 15px -3px rgba(194, 194, 194, 0.25);
   
 }
 
@@ -18,7 +19,7 @@
   --blue: #4066ff;
   --font: #000000;
   --lightBlue: #eeeeff;
-  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
   --filte: invert(0%);
   
 }
