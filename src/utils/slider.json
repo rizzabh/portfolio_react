@@ -9,6 +9,14 @@
     "button-name": "Code"
   },
   {
+    "name": "UI/UX Projects",
+    "detail": "Web-Designs using Figma",
+    "image": "./Screenshot 2023-07-29 215537.png",
+    "button-name": "Preview",
+    "link1": "https://www.behance.net/rishabhpandey31"
+ 
+  },
+  {
     "name": "Flutter-App",
     "detail": "A to-do-List App",
     "image": "./WhatsApp Image 2023-07-22 at 21.53.59.jpg",
@@ -22,14 +30,6 @@
     "image": "./Screenshot 2023-07-22 215451.png",
     "button-name": "Code",
     "link1": "https://github.com/rizzabh/Tictactoe"
- 
-  },
-  {
-    "name": "UI/UX Projects",
-    "detail": "Web-Designs using Figma",
-    "image": "./Screenshot 2023-07-29 215537.png",
-    "button-name": "Preview",
-    "link1": "https://www.behance.net/rishabhpandey31"
  
   }
 ]
