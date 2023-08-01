@@ -1,14 +1,80 @@
 .contact-cont{
     
 height: 758px;
+
 flex-direction: column;
 border-radius: 20px;
 border: 1px solid var(--font);
 background: linear-gradient(135deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.38) 48.40%, rgba(255, 255, 255, 0.38) 100%);
 backdrop-filter: blur(40px);
 }
-.contact-cont>img{
-   
+.img-green{
+   position: relative;
+   top: -.5px;
+   left: -.5px;
     float: left;
+    
+    
+    
+}
+.Your{
+    color: var(--font);
+}
+label{
+    display: block;
+    
+}
+input{
+    width: 300px;
+}
+input, textarea {
+    border: 1px solid var(--font);
+    background-image:none;
+    background-color: #2d2d2d60;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 7px;
+    padding: 5px;
+   
+    
+}
+
+.sub-button{
+    display: block;
+    background-color: var(--blue-gradient);
+    width: 6rem;
+    padding: 7px;
+}
+textarea {
+   
+    resize: none;
+    min-height: 300px;
+    min-width: 40rem;   
+    right: 200px; 
+}
+
+.sub-button{
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: linear-gradient(97.05deg, #c340ff 3.76%, #7a29c6 100%);
+    font-weight: 500;
+}
+label{
+    margin: 10px;
+}
+form{
+    position: relative;
+    left: 2rem;
+    margin: 5px;
+}
+@media (max-width: 970px){
+    .img-green{
+       display: none;
+        
+    }
     
 }
