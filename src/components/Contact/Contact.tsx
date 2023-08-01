@@ -37,11 +37,11 @@ export default function Contact() {
             <div className="contact-cont ">
                 <div className="img-green"><img src="./martin-martz-npdGyujDvaU-unsplash 1.png" alt="" /></div>
                 <div className="form-layout paddings">
-                <span className="primaryText p-head paddings">
+                <span className="primaryText f-head paddings">
                 Contact Form
             </span><br/><br/>
             
-            <form ref={form} onSubmit={sendEmail} >
+            <form ref={form} onSubmit={sendEmail} className='paddings' >
       <label className='Your'>Your Name</label>
       <input type="text" name="user_name" />
       <label className='Your'>Your Email</label>

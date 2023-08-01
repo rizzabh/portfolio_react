@@ -49,9 +49,9 @@ input, textarea {
 textarea {
    
     resize: none;
-    min-height: 300px;
-    min-width: 40rem;   
-    right: 200px; 
+    height: 300px;
+    width: 40rem;
+    
 }
 
 .sub-button{
@@ -69,12 +69,47 @@ label{
 form{
     position: relative;
     left: 2rem;
-    margin: 5px;
+    
 }
-@media (max-width: 970px){
+@media (max-width: 1010px){
     .img-green{
        display: none;
         
     }
+   
+    form>textarea{
+        width: 35rem;
+
+
+    }
     
+}
+@media (max-width: 780px){
+    .f-head{
+        left: -2rem;
+    }
+    form{
+        top: -3rem;
+        left: -2rem;
+
+    }
+}
+@media (max-width: 766px){
+    form>textarea{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 600px){
+    form>textarea{
+        width: 18rem;
+        height: 10rem;
+    }
+    input{
+        width: 10rem;
+    }
+    .contact-cont{
+        height:fit-content;
+    }
+
 }
