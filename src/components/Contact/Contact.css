@@ -17,6 +17,7 @@ backdrop-filter: blur(40px);
     
     
 }
+
 .Your{
     color: var(--font);
 }
@@ -44,7 +45,7 @@ input, textarea {
     display: block;
     background-color: var(--blue-gradient);
     width: 6rem;
-    padding: 7px;
+    padding: 5px;
 }
 textarea {
    
@@ -56,7 +57,7 @@ textarea {
 
 .sub-button{
     position: relative;
-    top: 10px;
+    top: 20px;
     cursor: pointer;
     border: none;
     color: white;
@@ -70,6 +71,14 @@ form{
     position: relative;
     left: 2rem;
     
+}
+.sub-button{
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+}
+textarea:focus, input:focus {
+    color: var(--font);
 }
 @media (max-width: 1010px){
     .img-green{
@@ -106,10 +115,13 @@ form{
         height: 10rem;
     }
     input{
-        width: 10rem;
+        width: 15rem;
     }
     .contact-cont{
-        height:fit-content;
+        height:530px;
+    }
+    .sub-button{
+        left: 25%;
     }
 
 }

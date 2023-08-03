@@ -29,7 +29,7 @@ export default function Contact() {
     }
   return (
     <div>
-      <section className='wrapper-contact'>
+      <section className='wrapper-contact' id='#Contact'>
         <div className="paddings innerWidth contacts-cont">
         <span className="primaryText p-head" id='Contact'>
                 Contact Me
@@ -48,7 +48,7 @@ export default function Contact() {
       <input type="email" name="user_email" />
       <label className='Your'>Message</label>
       <textarea name="message" />
-      <input className='sub-button' type="submit" value="Send" />
+      <input className='sub-button button1' type="submit" value="Send" />
     </form>
    
             
