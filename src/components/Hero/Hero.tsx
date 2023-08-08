@@ -20,7 +20,7 @@ const Hero = () => {
                 <span>I Talk About App Development, UI-UX, and Cinema</span>
             </div>
             <div className="cta1">
-            <a href = "https://drive.google.com/file/d/1r2qWQ01PLNVoE40t8i94d47YnvEs6U9M/view?usp=drive_link">
+            <a href = "https://drive.google.com/file/d/1ZE0uFdpDIj-E8wJFjxSFgOj2Nn6TaTut/view?usp=sharing">
             <button className="button2">Resume</button></a>
             <a href="#Contact"><button className="button1 phone">Contact</button></a>
 
