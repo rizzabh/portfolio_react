@@ -25,6 +25,12 @@ z-index: -1;
 .img-container{
     position: relative;
     
+    
+}
+.img-container>img{
+    border-radius: 50%;
+    height: 400px;
+    box-shadow: var(--shadow);
 }
 .hero-wrapper{
     position: relative;
