@@ -25,6 +25,7 @@ export default function Contact() {
         (result) => {
           alert("Email Sent");
           console.log(result.text);
+          window.location.reload();
         },
         (error) => {
           alert("Please Fill all of the details");
