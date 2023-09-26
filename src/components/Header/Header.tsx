@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = () => {
   const setDarkmode = ()=>{
-    document.querySelector("body")?.setAttribute('data-theme', 'dark')
+    document.querySelector("body")?.setAttribute('data-theme', 'dark');
   }
   const setLightmode = ()=>{
     document.querySelector("body")?.setAttribute('data-theme', 'light')
@@ -13,10 +13,12 @@ const Header = () => {
     else setLightmode();
 
   }
+  
+  
   return (
   <section className='h-wrapper'>
     <div className='flexCenter padding innerWidth h-container'>
-    <img src="./rishabhquali.png" className='logo1' alt="Rishabh." width={170}/>
+    <div className="logo hero-title"><a href='/'>R.</a></div>
     <div className="flexCenter h-menu">
         <a href="" className='Navv' >Home</a>
         <a href="#MyProjects" className='Navv'>Projects</a>

@@ -5,18 +5,9 @@
     /* padding-top: 1rem;
     padding-bottom: 1rem; */
     
-    backdrop-filter: blur(7.5px);
+    backdrop-filter: blur(3.5px);
 
-.h-container{
-    justify-content: space-between;
-    /* padding-top: 1rem;
-    padding-bottom: 1rem; */
-    
-    backdrop-filter: blur(7.5px);
-    
-    
 
-}
 .h-wrapper{
     position: sticky;
     top: 0; 
@@ -25,19 +16,14 @@
 .h-menu{
     gap: 2rem;
 }
-.change-theme{
-    cursor: pointer;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    background-color: white;
-    border: none;
-    transition: all .2s ease-in-out;
-}
+
 
 #abc{
+    
     filter: var(--filte);
+    
 }
+
 .ham{
     display: none;
 }
@@ -83,6 +69,16 @@
 }
 .ham{
     display: none;
+}
+.logo{
+    margin-left: 20px;
+    
+}
+.logo>a{
+    font-size: 32px;
+    font-weight: 700;
+    filter: drop-shadow(3px 3px 0px rgba(195, 0, 255, 0.625));
+    
 }
  @media (max-width: 900px){
     .Navv{

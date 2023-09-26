@@ -5,7 +5,7 @@ height: 758px;
 flex-direction: column;
 border-radius: 20px;
 border: 1px solid var(--font);
-background: linear-gradient(135deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.38) 48.40%, rgba(255, 255, 255, 0.38) 100%);
+background: var(--cardgrad);
 backdrop-filter: blur(40px);
 }
 .img-green{
@@ -24,6 +24,7 @@ backdrop-filter: blur(40px);
 label{
     display: block;
     
+    
 }
 input{
     width: 300px;
@@ -31,7 +32,7 @@ input{
 input, textarea {
     border: 1px solid var(--font);
     background-image:none;
-    background-color: #2d2d2d60;
+    background-color: var(--cardgrad);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -77,9 +78,11 @@ form{
     height: 50px;
     font-size: 16px;
 }
-textarea:focus, input:focus {
+textarea, input {
     color: var(--font);
 }
+
+
 @media (max-width: 1010px){
     .img-green{
        display: none;

@@ -46,6 +46,7 @@ z-index: -1;
 .hero-title{
     color: var(--font);
     position: relative;
+    filter: drop-shadow(3px 3px 0px rgba(195, 0, 255, 0.625));
     z-index: 1;
 }
 .hero-title>h1{

@@ -4,11 +4,13 @@
   --font: #ffffff;
   --filte: invert(100%);
   --shadow: 0px 0px 15px -3px rgba(194, 194, 194, 0.25);
+  --cardgrad:linear-gradient(71deg, #080509, #1a171c, #080509);
+  
   
 }
 
 [data-theme="dark"]{
-  
+  --cardgrad:linear-gradient(71deg, #ffffff, #f9ecfc, #ffffff);
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
   --bg: #ffffff;
@@ -38,6 +40,7 @@
 body{
   background-color: var(--bg);
   transition: all 0.5s ease-in-out;
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -78,7 +81,9 @@ a {
   justify-content: flex-end;
   align-items: center;
 }
-
+.head{
+  color: var(--font);
+}
 .flexColCenter {
   display: flex;
   justify-content: center;

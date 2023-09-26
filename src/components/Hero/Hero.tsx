@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <div className="flexCenter hero-right">
           <div className="img-container">
-            <img src="Group 1.png" alt="Profile Pic" />
+            <img src="Group 1.png" alt="Profile Pic" loading="lazy"/>
           </div>
         </div>
        
