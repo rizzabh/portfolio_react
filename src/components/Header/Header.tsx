@@ -20,8 +20,9 @@ const Header = () => {
     <div className='flexCenter padding innerWidth h-container'>
     <div className="logo hero-title"><a href='/'>R.</a></div>
     <div className="flexCenter h-menu">
-        <a href="" className='Navv' >Home</a>
+        <a href="/" className='Navv' >Home</a>
         <a href="#MyProjects" className='Navv'>Projects</a>
+        <a href='#Work' className='Navv'>Work</a>
         <a href="https://drive.google.com/file/d/1ZE0uFdpDIj-E8wJFjxSFgOj2Nn6TaTut/view?usp=sharing" download="Rishabh Resume" className='Navv'>Resume</a>
         <div><input className='change-theme' id='dark-model' type='checkbox' onChange={toggleTheme}/> <label htmlFor="dark-model"><img src="icons8-dark-theme-30.png" id='abc' alt="Themes"/></label> </div>
         <button className='button2 Navv' ><a href="#Contact">Contact me</a></button>
