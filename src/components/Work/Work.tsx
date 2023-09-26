@@ -3,7 +3,7 @@ import "./Work.scss";
 const Work = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="Work">
         <p className="container-title padddings">
           Work Experience
         </p>
