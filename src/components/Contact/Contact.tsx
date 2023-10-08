@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   const form = useRef();
@@ -38,6 +39,7 @@ export default function Contact() {
        
       <section className="wrapper-contact" id="#Contact">
         <div className="paddings innerWidth contacts-cont">
+        
           <div className="contact-cont ">
             <div className="img-green">
               <img src="./martin-martz-npdGyujDvaU-unsplash 1.png" alt="" />
