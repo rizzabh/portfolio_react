@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
-import { motion } from "framer-motion";
+
 
 export default function Contact() {
-  const form = useRef();
+  const form = useRef(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
