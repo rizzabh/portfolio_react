@@ -21,7 +21,7 @@ const Projects = () => {
                 data.map((card, i) => (
                   <SwiperSlide key={i}>
                     <div className="flexCenter flexColStart p-card">
-                      <img src={card.image} alt="Thumb" loading='lazy'/>
+                      <img src={card.image} alt="Thumb" loading='eager'/>
                       <span className="p-cardtext"><br/>
                         <span className="primaryText name">{card.name}</span><br/>
                         <span className="secondaryText detail">{card.detail}</span><br/>
