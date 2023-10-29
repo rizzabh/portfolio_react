@@ -29,6 +29,7 @@
   }
 }
 
+
 .container-title {
   text-align: center;
   padding: 0 !important;
@@ -37,7 +38,7 @@
   color: var(--font);
   font-weight: 600;
   line-height: 60px;
-  filter: drop-shadow(3px 3px 0px rgba(195, 0, 255, 0.625));
+  
 }
 .card-subtitle{
   font-weight: 600;
@@ -118,4 +119,8 @@
   line-height: 32px;
   font-size: 16px;
   max-width: 470px;
+}
+.link{
+  text-decoration: underline;
+  font-weight: 600;
 }

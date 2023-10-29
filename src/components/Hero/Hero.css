@@ -6,9 +6,14 @@ height: 100px;
 border-radius: 100%;
 top: -300%;
 left: -10%;
-background: linear-gradient(90deg, #8331ff 0%, rgba(217, 217, 217, 0.00) 100%);
-/* filter: blur(70.5px); */
-z-index: -1;
+background: linear-gradient(90deg, #8331ff 0%, rgba(173, 0, 241, 0.596) 100%);
+box-shadow: var(--shadow);/* filter: blur(70.5px); */
+
+cursor: pointer;
+}
+.bggrad1:hover{
+    background: linear-gradient(90deg, #00ac09 0%, rgba(137, 255, 162, 0.596) 100%);
+
 }
 .bggrad2{
     position: absolute;
@@ -35,6 +40,7 @@ z-index: -1;
 .hero-wrapper{
     position: relative;
     padding-bottom: 0rem;
+    left: 0;
 }
 .hero-container{
     justify-content: space-evenly;
@@ -46,7 +52,6 @@ z-index: -1;
 .hero-title{
     color: var(--font);
     position: relative;
-    filter: drop-shadow(3px 3px 0px rgba(195, 0, 255, 0.625));
     z-index: 1;
 }
 .hero-title>h1{
@@ -120,6 +125,14 @@ z-index: -1;
     color: black;
     cursor: pointer;
 }
+.drag{
+font-size: x-small;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(202, 202, 202);
+}
+
 
 @media (max-width: 670px){
     .img-container{
@@ -140,7 +153,9 @@ z-index: -1;
     .bggrad1{
         height: 60px;
         width: 60px;
-        top: -70%;
+        top: -10%;
+        left: -5px;
+        
     }
 }
 @media (max-width: 410px){

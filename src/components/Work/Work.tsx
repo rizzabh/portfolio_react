@@ -7,6 +7,19 @@ const Work = () => {
         <p className="container-title padddings">Work Experience</p>
 
         <div className="gradient-cards">
+        <div className="card">
+            <div className="container-card bg-blue-box">
+              <p className="card-title link"> <a href="https://www.linkedin.com/posts/vcet-hackathon_hackathon-hackathon2023-vcethackathon-activity-7117139029770289152-WO7i?utm_source=share&utm_medium=member_android" target="_blank">2nd Runner-up</a></p>
+              <p className="card-subtitle">VCET Hackathon'23</p>
+              <p className="card-description secondaryText">
+                Team HookHeroes 2023
+                <br />
+                • Whole Design System of the Website that we created.
+                <br />• Frontend of the Landing page.
+                <br />• Live Link : <a href="https://lingo-safari.vercel.app/" className="link">LingoSafari</a>
+              </p>
+            </div>
+          </div>
           <div className="card">
             <div className="container-card bg-green-box">
               <p className="card-title">Jt Technical Head</p>
@@ -60,6 +73,7 @@ const Work = () => {
               </p>
             </div>
           </div>
+          
         </div>
       </div>
     </>
