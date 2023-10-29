@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
             <div className="flexColStart desc">
               <span>Hello, Im an aspiring software Developer and Engineer</span>
-              <span>I Talk About App Development, UI-UX, and Cinema</span>
+              <span>I Talk About Web Development, UI-UX, and Cinema</span>
             </div>
             <div className="cta1">
               <a href="https://drive.google.com/file/d/1ZE0uFdpDIj-E8wJFjxSFgOj2Nn6TaTut/view?usp=sharing">
