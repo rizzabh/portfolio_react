@@ -6,15 +6,13 @@ height: 100px;
 border-radius: 100%;
 top: -300%;
 left: -10%;
-background: linear-gradient(90deg, #8331ff 0%, rgba(173, 0, 241, 0.596) 100%);
-box-shadow: var(--shadow);/* filter: blur(70.5px); */
 
+background: linear-gradient(180deg, #DB00FF 0%, #8A00CB 49.05%, #410095 100%);
+box-shadow: 0px 6px 3.9px 0px rgba(255, 255, 255, 0.53) inset;
+opacity: 0.9;
 cursor: pointer;
 }
-.bggrad1:hover{
-    background: linear-gradient(90deg, #00ac09 0%, rgba(137, 255, 162, 0.596) 100%);
 
-}
 .bggrad2{
     position: absolute;
     top: -400px;
