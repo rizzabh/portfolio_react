@@ -2,6 +2,20 @@
   
   
   {
+    "name": "Threedee",
+    "detail": "Showcasing 3d models using spline",
+    "image": "./threedee.png",
+    "link1": "https://github.com/rizzabh/threedee",
+    "button-name": "Code"
+  },
+  {
+    "name": "Cument",
+    "detail": "A site where you can share your thoughts (CRUD)",
+    "image": "./cument.png",
+    "link1": "https://github.com/rizzabh/cument",
+    "button-name": "Code"
+  },
+  {
     "name": "Realtime Weather",
     "detail": "Used Python",
     "image": "./Screenshot 2023-07-22 195226.png",
