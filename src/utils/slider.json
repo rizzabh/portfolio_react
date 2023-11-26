@@ -11,6 +11,14 @@
   },
   
   {
+    "name": "UI/UX Projects",
+    "detail": "Design Portfolio",
+    "image": "./Framer.png",
+    "button-name": "Visit",
+    "link1": "https://rizzabh.framer.website/"
+  
+  },
+  {
     "name": "Threedee",
     "detail": "Showcasing 3d models using spline",
     "image": "./threedee.png",
@@ -33,14 +41,6 @@
     "link2":"https://www.linkedin.com/posts/rizzabh_python-weatherapp-memes-activity-7087829259175534593-WTpi?utm_source=share&utm_medium=member_desktop",
     "button-name": "Code",
     "button-name2":"Video"
-  },
-  {
-    "name": "UI/UX Projects",
-    "detail": "Design Portfolio",
-    "image": "./Framer.png",
-    "button-name": "Visit",
-    "link1": "https://rizzabh.framer.website/"
- 
   },
   {
     "name": "Flutter-App",
