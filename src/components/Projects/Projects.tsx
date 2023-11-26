@@ -28,6 +28,12 @@ const Projects = () => {
                         <a href={card.link1}>
                         <button className="button2">{card['button-name']}</button></a>
                         
+                        {card['button-name2'] && (
+                        <a href={card.link2}>
+                          <button className="button12">{card['button-name2']}</button>
+                        </a>
+                      )}
+                        
                     </span>
  
                     </div>

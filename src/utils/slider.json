@@ -1,5 +1,14 @@
 [
   
+  {
+    "name": "Therapy Boy",
+    "detail": "Made a bot using Node, Discord.js",
+    "image": "./therapy.png",
+    "link1": "https://github.com/rizzabh/TherapyBot",
+    "button-name": "Code",
+    "link2": "https://www.linkedin.com/posts/rizzabh_project-therapy-discord-bot-github-repo-activity-7134113357837578240-30uM?utm_source=share&utm_medium=member_desktop",
+    "button-name2" : "Video"
+  },
   
   {
     "name": "Threedee",
@@ -9,18 +18,21 @@
     "button-name": "Code"
   },
   {
-    "name": "Cument",
-    "detail": "A site where you can share your thoughts (CRUD)",
+    "name": "Cument (CRUD)",
+    "detail": "A site where you can share your thoughts",
     "image": "./cument.png",
     "link1": "https://github.com/rizzabh/cument",
     "button-name": "Code"
+    
   },
   {
     "name": "Realtime Weather",
     "detail": "Used Python",
     "image": "./Screenshot 2023-07-22 195226.png",
     "link1": "https://github.com/rizzabh/weatherpython",
-    "button-name": "Code"
+    "link2":"https://www.linkedin.com/posts/rizzabh_python-weatherapp-memes-activity-7087829259175534593-WTpi?utm_source=share&utm_medium=member_desktop",
+    "button-name": "Code",
+    "button-name2":"Video"
   },
   {
     "name": "UI/UX Projects",

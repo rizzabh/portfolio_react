@@ -15,6 +15,20 @@
     overflow: hidden;
 
 }
+.button12{
+    width: 120px;
+    background: none;
+    color: var(--font);
+    border: 1px solid var(--font);
+    padding: 1rem;
+    border-radius: 12px;
+    transition: all .5s ease-in-out;
+}
+.button12:hover{
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+}
 .p-card>img{
     object-fit: cover;
     border-radius: 10px;
