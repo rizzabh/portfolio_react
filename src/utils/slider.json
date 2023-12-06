@@ -1,5 +1,20 @@
 [
+  {
+    "name": "UI/UX Projects",
+    "detail": "Design Portfolio",
+    "image": "./Framer.png",
+    "button-name": "Visit",
+    "link1": "https://rizzabh.framer.website/"
   
+  },
+  {
+    "name": "Github Searcher",
+    "detail": "Made using nextjs",
+    "image": "./gitsearch.png",
+    "button-name": "Visit",
+    "link1": "https://githubsearch-six.vercel.app/"
+
+  },
   {
     "name": "Therapy Boy",
     "detail": "Made a bot using Node, Discord.js",
@@ -10,14 +25,6 @@
     "button-name2" : "Video"
   },
   
-  {
-    "name": "UI/UX Projects",
-    "detail": "Design Portfolio",
-    "image": "./Framer.png",
-    "button-name": "Visit",
-    "link1": "https://rizzabh.framer.website/"
-  
-  },
   {
     "name": "Threedee",
     "detail": "Showcasing 3d models using spline",
