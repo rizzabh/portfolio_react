@@ -1,21 +1,9 @@
-.contact-cont{
-    
-height: 758px;
 
-flex-direction: column;
-border-radius: 20px;
-border: 1px solid var(--font);
-background: var(--cardgrad);
-backdrop-filter: blur(40px);
-}
-.img-green{
-   position: relative;
-   top: -.5px;
-   left: -.5px;
-    float: left;
-    
-    
-    
+.contact-cont>h1{
+    color: var(--font);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px;
 }
 
 .Your{
@@ -30,7 +18,7 @@ input{
     width: 300px;
 }
 input, textarea {
-    border: 1px solid var(--font);
+    border: 0.1px solid var(--font);
     background-image:none;
     background-color: var(--cardgrad);
     -webkit-box-shadow: none;

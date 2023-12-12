@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 
 
 export default function Contact() {
+  
   const form = useRef(null);
 
   const sendEmail = (e) => {
@@ -34,16 +35,16 @@ export default function Contact() {
         }
       );
   };
+
+  
   return (
     <div>
        
       <section className="wrapper-contact" id="#Contact">
-        <div className="paddings innerWidth contacts-cont">
+        <div className="paddings innerWidth">
         
           <div className="contact-cont ">
-            <div className="img-green">
-              <img src="./martin-martz-npdGyujDvaU-unsplash 1.png" alt="" />
-            </div>
+          
             <div className="form-layout paddings">
               <span className="primaryText f-head paddings">Contact Form</span>
               <br />
@@ -51,11 +52,11 @@ export default function Contact() {
 
               <form ref={form} onSubmit={sendEmail} className="paddings">
                 <label className="Your">Your Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="user_name" required />
                 <label className="Your">Your Email</label>
-                <input type="email" name="user_email" />
+                <input type="email" name="user_email" required />
                 <label className="Your">Message</label>
-                <textarea name="message" />
+                <textarea name="message" required />
                 <input
                   className="sub-button button1"
                   type="submit"
