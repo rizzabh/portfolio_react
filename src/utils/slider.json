@@ -13,6 +13,16 @@
     "image": "./gitsearch.png",
     "button-name": "Visit",
     "link1": "https://githubsearch-six.vercel.app/"
+    
+  },
+  {
+    "name": "GDSC Website Frontend",
+    "detail": "Opensource contribution to GDSC TCET",
+    "image": "./gdscjet.png",
+    "button-name": "Visit",
+    "link1": "https://gdsc-tcet-compose-camp.vercel.app/",
+    "link2": "https://github.com/Yadav106/gdsc-compose-camp",
+    "button-name2" : "Code"
 
   },
   {
