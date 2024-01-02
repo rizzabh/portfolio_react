@@ -16,7 +16,7 @@
     
   },
   {
-    "name": "GDSC Website Frontend",
+    "name": "GDSC Website",
     "detail": "Opensource contribution to GDSC TCET",
     "image": "./gdscjet.png",
     "button-name": "Visit",
@@ -26,7 +26,7 @@
 
   },
   {
-    "name": "Therapy Boy",
+    "name": "Therapy Bot",
     "detail": "Made a bot using Node, Discord.js",
     "image": "./therapy.png",
     "link1": "https://github.com/rizzabh/TherapyBot",

@@ -9,7 +9,15 @@ const Hero = () => {
     <>
       <motion.div ref={constraintsRef} className="hero-wrapper">
         <div className="paddings innerWidth flexCenter hero-container">
-          <div className="flexColStart hero-left">
+          <div className="flexColStart hero-left gap-4">
+            <a href="https://youtu.be/OT0rT0bbc7k?si=sd04mKWoUlZlFrDj" target="_blank"><div className="pl-4 pr-2 py-2 bg-gray-800 border border-gray-500 bg-opacity-50 text-white rounded-3xl max-sm:text-sm flex items-center cursor-pointer">
+              Watch Seminar
+              <div className="play-logo-inisde-circle ml-1">
+                <img src="/play.svg" alt="" />
+                
+              </div>
+            </div>
+            </a>
             <div className="hero-title">
               <motion.div
                 drag
@@ -26,21 +34,26 @@ const Hero = () => {
               ></motion.div>
 
               <div className="bggrad2"></div>
-              <div className="name">
-                <h1>
-                  <span className="textgrad">Rishabh Pandey</span>
-                </h1>
+            </div>
+            <div className="hero-section-left">
+              <div className="font-semibold text-6xl max-sm:text-5xl Name">
+                Rishabh Pandey
+              </div>
+              <div className="text-xl role mt-2 mb-2">Developer & Designer</div>
+              <div className="description mb-4">
+                <p>
+                  I'm a software developer based in India. I have a passion for
+                  web design <br className="max-sm:hidden" /> and love to create
+                  for web and mobile devices. I have worked
+                  <br className="max-sm:hidden" /> on a variety of projects
+                  ranging from web development
+                  <br className="max-sm:hidden" /> to web design.
+                </p>
               </div>
             </div>
-            <div className="hero-subtitle">
-              <h2>Developer & Designer</h2>
-            </div>
-            <div className="flexColStart desc">
-              <span>Hello, Im an aspiring software Developer and Engineer</span>
-              <span>I Talk About Web Development, UI-UX, and Cinema</span>
-            </div>
+
             <div className="cta1">
-              <a href="https://drive.google.com/file/d/1ZE0uFdpDIj-E8wJFjxSFgOj2Nn6TaTut/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/172X2xeO0_o--YtfaNatSBBKUCgqKYSO2/view?usp=sharing">
                 <button className="button2">Resume</button>
               </a>
               <a href="#Contact">
@@ -50,9 +63,7 @@ const Hero = () => {
           </div>
 
           <div className="flexCenter hero-right">
-            <div className="img-container">
-              <img src="Group 1.png" alt="Profile Pic" />
-            </div>
+            <div className="img-container"></div>
           </div>
         </div>
 
@@ -74,7 +85,7 @@ const Hero = () => {
           </div>
         </div>
       </motion.div>
-      </>
+    </>
   );
 };
 

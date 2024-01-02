@@ -9,7 +9,7 @@
   --filte: invert(100%);
   --shadow: 0px 0px 15px -3px rgba(197, 197, 197, 0.637);
   --cardgrad:linear-gradient(71deg, #080509, #1a171c, #080509);
-  
+  --desc: #7e7d7d;
   
 }
 
@@ -27,6 +27,7 @@
   --lightBlue: #eeeeff;
   --shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.329);
   --filte: invert(0%);
+  --desc: #929292;
   
 }
 .logo1{
@@ -40,6 +41,15 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   
+}
+.Name{
+  color: var(--font);
+}
+.description{
+  color: var(--desc);
+}
+.role{
+  color: var(--font);
 }
 body{
   background-color: var(--bg);
