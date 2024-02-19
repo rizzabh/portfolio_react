@@ -1,5 +1,13 @@
 [
   {
+    "name": "Nutrisnap",
+    "detail": "Think of Health, Think of Nutrisnap",
+    "image": "./nutrisnap.png",
+    "button-name": "Visit",
+    "link1": "https://nutrisnap.vercel.app/"
+  
+  },
+  {
     "name": "UI/UX Projects",
     "detail": "Design Portfolio",
     "image": "./Framer.png",
