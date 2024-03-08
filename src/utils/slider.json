@@ -24,6 +24,14 @@
     
   },
   {
+    "name": "LingoSafari",
+    "detail": "Frontend Layout",
+    "image": "./Screenshot 2024-03-08 144807.png",
+    "button-name": "Visit",
+    "link1": "https://lingo-safari.vercel.app/"
+    
+  },
+  {
     "name": "GDSC Website",
     "detail": "Opensource contribution to GDSC TCET",
     "image": "./gdscjet.png",
