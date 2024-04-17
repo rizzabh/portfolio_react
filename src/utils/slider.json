@@ -1,5 +1,14 @@
 [
   {
+    "name": "ThinQ: Virtual Classroom",
+    "detail": "Revolutionizing digital Education",
+    "image": "./Screenshot 2024-04-17 223635.png",
+    "button-name": "Visit",
+    "link1": "https://maam-coders.vercel.app/",
+    "button-name2" : "Code",
+    "link2": "https://github.com/arnitdo/ThinQ",
+  },
+  {
     "name": "Nutrisnap",
     "detail": "Think of Health, Think of Nutrisnap",
     "image": "./nutrisnap.png",
