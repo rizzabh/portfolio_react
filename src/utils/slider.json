@@ -26,6 +26,14 @@
   
   },
   {
+    "name": "Platformer Game",
+    "detail": "Mario Typa Beat",
+    "image": "./Screenshot 2024-04-26 224149.png",
+    "button-name": "Code",
+    "link1": "https://github.com/rizzabh/grp-pygame"
+  
+  },
+  {
     "name": "UI/UX Projects",
     "detail": "Design Portfolio",
     "image": "./Framer.png",
