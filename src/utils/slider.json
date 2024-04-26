@@ -9,6 +9,15 @@
     "link2": "https://github.com/arnitdo/ThinQ"
   },
   {
+    "name": "DealDex",
+    "detail": "Online Price comparison",
+    "image": "./Screenshot 2024-04-17 223735.png",
+    "button-name": "Video",
+    "link1": "https://www.youtube.com/watch?v=L-poYUOLeUQ",
+    "button-name2" : "Code",
+    "link2": "https://github.com/vaxad/DealDex"
+  },
+  {
     "name": "Nutrisnap",
     "detail": "Think of Health, Think of Nutrisnap",
     "image": "./nutrisnap.png",
