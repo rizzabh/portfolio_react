@@ -28,6 +28,16 @@
   {
     "name": "Platformer Game",
     "detail": "Mario Typa Beat",
+    "image": "./Screenshot 2024-05-16 223242.png",
+    "button-name2": "Code",
+    "link2": "https://github.com/rizzabh/react-hooks",
+    "button-name": "Visit",
+    "link1": "https://hookswithme.netlify.app/"
+  
+  },
+  {
+    "name": "Platformer Game",
+    "detail": "Mario Typa Beat",
     "image": "./Screenshot 2024-04-26 224149.png",
     "button-name": "Code",
     "link1": "https://github.com/rizzabh/grp-pygame"
