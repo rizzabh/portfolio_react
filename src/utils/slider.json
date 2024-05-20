@@ -26,8 +26,8 @@
   
   },
   {
-    "name": "Platformer Game",
-    "detail": "Mario Typa Beat",
+    "name": "HookWithMe",
+    "detail": "Implementing hooks",
     "image": "./Screenshot 2024-05-16 223242.png",
     "button-name2": "Code",
     "link2": "https://github.com/rizzabh/react-hooks",
