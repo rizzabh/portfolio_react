@@ -23,7 +23,7 @@ const Header = () => {
         <a href="/" className='Navv' >Home</a>
         <a href="#MyProjects" className='Navv'>Projects</a>
         <a href='#Work' className='Navv'>Work</a>
-        <a href="https://drive.google.com/file/d/1MFsjkTYBcEAr_yb1o23-WMl9bVwD7ak4/view?usp=sharing" download="Rishabh Resume" className='Navv'>Resume</a>
+        <a href="https://drive.google.com/file/d/1MFsjkTYBcEAr_yb1o23-WMl9bVwD7ak4/view?usp=sharing" download="Rishabh Resume" target="_blank" className='Navv'>Resume</a>
         <div><input className='change-theme' id='dark-model' type='checkbox' onChange={toggleTheme}/> <label htmlFor="dark-model"><img src="icons8-dark-theme-30.png" id='abc' alt="Themes"/></label> </div>
         <button className='button2 Navv' ><a href="#Contact">Contact me</a></button>
         <div className="ham">
