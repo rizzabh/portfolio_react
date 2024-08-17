@@ -53,7 +53,7 @@ const Hero = () => {
             </div>
 
             <div className="cta1">
-              <a href="https://drive.google.com/file/d/172X2xeO0_o--YtfaNatSBBKUCgqKYSO2/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1MFsjkTYBcEAr_yb1o23-WMl9bVwD7ak4/view?usp=sharing" target="_blank">
                 <button className="button2">Resume</button>
               </a>
               <a href="#Contact">
