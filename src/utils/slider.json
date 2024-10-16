@@ -1,5 +1,21 @@
 [
   {
+    "name": "S.I.C.K",
+    "detail": "SIP for Web3",
+    "image": "./image.png",
+    "button-name": "Visit",
+    "link1": "https://sickfreak.club/",
+    "button-name2" : "Org",
+    "link2": "https://github.com/SICK-Solana"
+  },
+  {
+    "name": "Hem LLP",
+    "detail": "Freelance Client",
+    "image": "./hem.png",
+    "button-name": "Visit",
+    "link1": "https://hemcontracts.com/"
+  },
+  {
     "name": "ThinQ:Classroom",
     "detail": "Revolutionizing digital Education",
     "image": "./Screenshot 2024-04-17 223635.png",

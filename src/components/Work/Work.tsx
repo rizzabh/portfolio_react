@@ -12,6 +12,47 @@ const Work = () => {
         <div className="gradient-cards">
         <div className="card">
             <div className="container-card bg-blue-box">
+              <p className="card-title">UI Engineer Intern</p>
+              <p className="card-subtitle">Reddy Games</p>
+              <p className="card-description secondaryText">
+                August 2024 - Present, Boston-USA
+                <br />
+                • Designed and Prototyped 2 Web apps
+                <br />• Came up with the Design System for the Company
+                <br />• Ideated Logos and Branding for the Company
+
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="container-card bg-yellow-box">
+              <p className="card-title">Won Bounty $2k </p>
+              <p className="card-subtitle">Won Superteam Project</p>
+              <p className="card-description secondaryText">
+                Solana Superteam
+                <br />
+                • <a href="https://earn.superteam.fun/t/rizzabh/">Solana Superteam Profile</a>
+                
+              </p>
+            </div>
+          </div>
+        <div className="card">
+            <div className="container-card bg-white-box">
+              <p className="card-title">Intern </p>
+              <p className="card-subtitle">Software Development</p>
+              <p className="card-description secondaryText">
+                Vighnotech June 2024 - August, Mumbai
+                <br />
+                • Handling Development as well as Designs of multiple Projects
+                <br />• Deploying web apps.
+                <br />• Handling API's and Databases.
+
+              </p>
+            </div>
+          </div>
+
+        <div className="card">
+            <div className="container-card bg-blue-box">
               <p className="card-title link"> <a href="https://www.linkedin.com/posts/vcet-hackathon_hackathon-hackathon2023-vcethackathon-activity-7117139029770289152-WO7i?utm_source=share&utm_medium=member_android" target="_blank">2nd Runner-up</a></p>
               <p className="card-subtitle">VCET Hackathon'23</p>
               <p className="card-description secondaryText">
