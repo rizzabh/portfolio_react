@@ -1,24 +1,39 @@
 [
   {
+    "name": "Yen.fyi",
+    "detail": "Website for Yen token",
+    "image": "./yen.webp",
+    "button-name": "Visit",
+    "link1": "https://yen.fyi/"
+  },
+  {
     "name": "S.I.C.K",
     "detail": "SIP for Web3",
-    "image": "./image.png",
+    "image": "./image.webp",
     "button-name": "Visit",
     "link1": "https://sickfreak.club/",
     "button-name2" : "Org",
     "link2": "https://github.com/SICK-Solana"
   },
   {
+    "name": "Flowpro",
+    "detail": "Low Code Backend Tool",
+    "image": "./flowpro.webp",
+    "button-name": "Visit",
+    "link1": "https://flow-pro.vercel.app/"
+
+  },
+  {
     "name": "Hem LLP",
     "detail": "Freelance Client",
-    "image": "./hem.png",
+    "image": "./hem.webp",
     "button-name": "Visit",
     "link1": "https://hemcontracts.com/"
   },
   {
     "name": "ThinQ:Classroom",
     "detail": "Revolutionizing digital Education",
-    "image": "./Screenshot 2024-04-17 223635.png",
+    "image": "./Screenshot 2024-04-17 223635.webp",
     "button-name": "Visit",
     "link1": "https://maam-coders.vercel.app/",
     "button-name2" : "Code",
@@ -27,7 +42,7 @@
   {
     "name": "DealDex",
     "detail": "Online Price comparison",
-    "image": "./Screenshot 2024-04-17 223735.png",
+    "image": "./Screenshot 2024-04-17 223735.webp",
     "button-name": "Video",
     "link1": "https://www.youtube.com/watch?v=L-poYUOLeUQ",
     "button-name2" : "Code",
@@ -36,7 +51,7 @@
   {
     "name": "Nutrisnap",
     "detail": "Think of Health, Think of Nutrisnap",
-    "image": "./nutrisnap.png",
+    "image": "./nutrisnap.webp",
     "button-name": "Visit",
     "link1": "https://nutrisnap.vercel.app/"
   
@@ -44,7 +59,7 @@
   {
     "name": "HookWithMe",
     "detail": "Implementing hooks",
-    "image": "./Screenshot 2024-05-16 223242.png",
+    "image": "./Screenshot 2024-05-16 223242.webp",
     "button-name2": "Code",
     "link2": "https://github.com/rizzabh/react-hooks",
     "button-name": "Visit",
@@ -54,7 +69,7 @@
   {
     "name": "Platformer Game",
     "detail": "Mario Typa Beat",
-    "image": "./Screenshot 2024-04-26 224149.png",
+    "image": "./Screenshot 2024-04-26 224149.webp",
     "button-name": "Code",
     "link1": "https://github.com/rizzabh/grp-pygame"
   
@@ -62,7 +77,7 @@
   {
     "name": "UI/UX Projects",
     "detail": "Design Portfolio",
-    "image": "./Framer.png",
+    "image": "./Framer.webp",
     "button-name": "Visit",
     "link1": "https://rizzabh.framer.website/"
   
@@ -70,7 +85,7 @@
   {
     "name": "Github Searcher",
     "detail": "Made using nextjs",
-    "image": "./gitsearch.png",
+    "image": "./gitsearch.webp",
     "button-name": "Visit",
     "link1": "https://githubsearch-six.vercel.app/"
     
@@ -78,7 +93,7 @@
   {
     "name": "LingoSafari",
     "detail": "Frontend Layout",
-    "image": "./Screenshot 2024-03-08 144807.png",
+    "image": "./Screenshot 2024-03-08 144807.webp",
     "button-name": "Visit",
     "link1": "https://lingo-safari.vercel.app/"
     
@@ -86,7 +101,7 @@
   {
     "name": "GDSC Website",
     "detail": "Opensource contribution to GDSC TCET",
-    "image": "./gdscjet.png",
+    "image": "./gdscjet.webp",
     "button-name": "Visit",
     "link1": "https://gdsc-tcet-compose-camp.vercel.app/",
     "link2": "https://github.com/Yadav106/gdsc-compose-camp",
@@ -96,7 +111,7 @@
   {
     "name": "Therapy Bot",
     "detail": "Made a bot using Node, Discord.js",
-    "image": "./therapy.png",
+    "image": "./therapy.webp",
     "link1": "https://github.com/rizzabh/TherapyBot",
     "button-name": "Code",
     "link2": "https://www.linkedin.com/posts/rizzabh_project-therapy-discord-bot-github-repo-activity-7134113357837578240-30uM?utm_source=share&utm_medium=member_desktop",
@@ -106,14 +121,14 @@
   {
     "name": "Threedee",
     "detail": "Showcasing 3d models using spline",
-    "image": "./threedee.png",
+    "image": "./threedee.webp",
     "link1": "https://github.com/rizzabh/threedee",
     "button-name": "Code"
   },
   {
     "name": "Cument (CRUD)",
     "detail": "A site where you can share your thoughts",
-    "image": "./cument.png",
+    "image": "./cument.webp",
     "link1": "https://github.com/rizzabh/cument",
     "button-name": "Code"
     
@@ -121,7 +136,7 @@
   {
     "name": "Realtime Weather",
     "detail": "Used Python",
-    "image": "./Screenshot 2023-07-22 195226.png",
+    "image": "./Screenshot 2023-07-22 195226.webp",
     "link1": "https://github.com/rizzabh/weatherpython",
     "link2":"https://www.linkedin.com/posts/rizzabh_python-weatherapp-memes-activity-7087829259175534593-WTpi?utm_source=share&utm_medium=member_desktop",
     "button-name": "Code",
@@ -138,7 +153,7 @@
   {
     "name": "Tic-Tac-Toe",
     "detail": "Simple Tictactoe using vanilla Javascript",
-    "image": "./Screenshot 2023-07-22 215451.png",
+    "image": "./Screenshot 2023-07-22 215451.webp",
     "button-name": "Code",
     "link1": "https://github.com/rizzabh/Tictactoe"
  

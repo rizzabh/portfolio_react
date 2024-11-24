@@ -52,13 +52,11 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="cta1">
+            <div className="cta1 flex ">
               <a href="https://drive.google.com/file/d/1MFsjkTYBcEAr_yb1o23-WMl9bVwD7ak4/view?usp=sharing" target="_blank">
                 <button className="button2">Resume</button>
               </a>
-              <a href="#Contact">
-                <button className="button1 phone">Contact</button>
-              </a>
+              
             </div>
           </div>
 

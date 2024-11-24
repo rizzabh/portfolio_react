@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <div>
        
-      <section className="wrapper-contact" id="#Contact">
+      <section className="wrapper-contact" id="Contact">
         <div className="paddings innerWidth">
         
           <div className="contact-cont ">

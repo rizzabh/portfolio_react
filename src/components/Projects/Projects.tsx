@@ -8,7 +8,7 @@ import data from '../../utils/slider.json';
 
 const Projects = () => {
   return (
-    <div>
+    <div className='mb-44'>
       <section className="wrapper-projects">
         <div className="paddings innerWidth p-container">
             <span className="primaryText p-head" id='MyProjects'>
@@ -43,6 +43,8 @@ const Projects = () => {
             }
         </Swiper>
         </div>
+        <div className='role mb-3 text-xl mt-10 text-center font-semibold max-sm:text-base '>Not just a Developer, i can design too!</div>
+        <p className='text-black text-center rounded-full border border-zinc-300 max-sm:text-sm cursor-pointer w-fit mx-auto px-4 py-1 bg-white'> <a href="https://www.figma.com/deck/Y6NhRAjAgVSP757S6Ei4A5/Rishabh's-Work?node-id=1-34&t=IomQ7qC2Bed0Kq6Z-1" target='_blank' >View Design Projects</a> </p>
       </section>
     </div>
   )

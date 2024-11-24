@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <>
       <div className="container" id="Work">
-        <p className="container-title padddings">Work Experience</p>
+        <p className="container-title padddings ">Work Experience</p>
 <div className="carausel">
        
 </div>
