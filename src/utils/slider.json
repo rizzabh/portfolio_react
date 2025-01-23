@@ -1,10 +1,10 @@
 [
   {
-    "name": "Yen.fyi",
-    "detail": "Website for Yen token",
-    "image": "./yen.webp",
+    "name": "Solana Rewind",
+    "detail": "Wallet Roaster for Solana",
+    "image": "./rewind.webp",
     "button-name": "Visit",
-    "link1": "https://yen.fyi/"
+    "link1": "https://solanarewind.fun/"
   },
   {
     "name": "S.I.C.K",
@@ -21,7 +21,14 @@
     "image": "./flowpro.webp",
     "button-name": "Visit",
     "link1": "https://flow-pro.vercel.app/"
-
+    
+  },
+  {
+    "name": "Yen.fyi",
+    "detail": "Website for Yen token",
+    "image": "./yen.webp",
+    "button-name": "Visit",
+    "link1": "https://yen.fyi/"
   },
   {
     "name": "Hem LLP",
